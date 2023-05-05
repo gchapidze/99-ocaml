@@ -1,0 +1,9 @@
+(* # range 4 9;;
+- : int list = [4; 5; 6; 7; 8; 9] *)
+
+let range i j = 
+    let rec append a b =  
+      if a > b then []
+      else a :: append(a + 1)(b)
+    in
+    if i > j then List.rev (append j i) else append i j;;  
