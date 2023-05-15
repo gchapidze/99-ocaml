@@ -1,5 +1,3 @@
-(* # rand_select ["a"; "b"; "c"; "d"; "e"; "f"; "g"; "h"] 3;;
-- : string list = ["g"; "d"; "a"] *)
 
 let rand_select (ls: 'a list) (len: int): 'a list = 
   let min_bound = Random.int (List.length ls) - len

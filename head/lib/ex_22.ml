@@ -1,5 +1,3 @@
-(* # range 4 9;;
-- : int list = [4; 5; 6; 7; 8; 9] *)
 
 let range i j = 
     let rec append a b =  

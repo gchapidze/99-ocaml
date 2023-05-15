@@ -1,4 +1,4 @@
-(* pack ["a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "d"; "e"; "e"; "e"; "e"];; *)
+
 let pack ls = 
   let rec iter_and_pack l acc_i acc_j = 
     match l with

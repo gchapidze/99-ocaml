@@ -1,5 +1,3 @@
-(* # insert_at "alfa" 1 ["a"; "b"; "c"; "d"];;
-- : string list = ["a"; "alfa"; "b"; "c"; "d"] *)
 
 let insert_at ~(node: 'a) ~(index: int) ~(list: 'a list) = 
   let rec iteri l i = 

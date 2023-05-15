@@ -1,5 +1,3 @@
-(* # rotate ["a"; "b"; "c"; "d"; "e"; "f"; "g"; "h"] 3;;
-- : string list = ["d"; "e"; "f"; "g"; "h"; "a"; "b"; "c"] *)
 
 let rotate ls i = 
   let rec rotator_helper l acc index = 

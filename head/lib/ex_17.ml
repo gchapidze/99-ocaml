@@ -1,8 +1,3 @@
-(* # split ["a"; "b"; "c"; "d"; "e"; "f"; "g"; "h"; "i"; "j"] 3;;
-- : string list * string list =
-(["a"; "b"; "c"], ["d"; "e"; "f"; "g"; "h"; "i"; "j"])
-# split ["a"; "b"; "c"; "d"] 5;;
-- : string list * string list = (["a"; "b"; "c"; "d"], []) *)
 
 let split ls i = 
   let rec splitter l first second c = 

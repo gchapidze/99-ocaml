@@ -1,5 +1,3 @@
-(* # replicate ["a"; "b"; "c"] 3;;
-- : string list = ["a"; "a"; "a"; "b"; "b"; "b"; "c"; "c"; "c"] *)
 
 let rec replicate ls i =
   let rec append_helper c e = 

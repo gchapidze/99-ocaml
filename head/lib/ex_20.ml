@@ -1,5 +1,3 @@
-(* # remove_at 1 ["a"; "b"; "c"; "d"];;
-- : string list = ["a"; "c"; "d"] *)
 
 let remove_at i ls = 
   let rec remove l acc index = 

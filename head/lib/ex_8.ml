@@ -1,3 +1,4 @@
+
 let rec compress ls = 
   match ls with
   | [] -> []

@@ -1,7 +1,4 @@
-(* # permutation ["a"; "b"; "c"; "d"; "e"; "f"];;
-- : string list = ["c"; "d"; "f"; "e"; "b"; "a"] *)
 
-(* |ln - x|ln - x + 1|ln - x + 2| ... | ln - (x + n) >= 0 *)
 let remove_at ls i = 
   let rec remover l acc j = 
     match l with
@@ -10,7 +7,8 @@ let remove_at ls i =
   in
   List.rev @@ remover ls [] 0;;
 
-  let permutation ls = 
+
+let permutation ls = 
   let rec generate l acc = 
     if List.length l = 0 then acc 
     else 
