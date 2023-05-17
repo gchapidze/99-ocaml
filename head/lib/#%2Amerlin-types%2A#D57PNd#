@@ -1,0 +1,1 @@
+(* expected type *) (int * (int * int)) list

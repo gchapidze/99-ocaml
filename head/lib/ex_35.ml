@@ -1,4 +1,3 @@
-
 let rec pow n p = if p < 1 then 1 else n * pow n (p - 1)
 
 let phi_improved n =

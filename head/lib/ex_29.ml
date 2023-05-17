@@ -1,4 +1,3 @@
-
 let is_prime n =
   let s = 2 in
   let n = if n < 0 then Int.neg n

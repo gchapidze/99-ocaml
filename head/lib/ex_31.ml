@@ -1,4 +1,3 @@
-
 let coprime x y =
   let rec gcd x y =
     if x > y then gcd(x - y)(y)

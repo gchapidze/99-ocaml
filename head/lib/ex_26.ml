@@ -1,4 +1,3 @@
-
 let res = ref [];;
 
 let rec extract n ls =

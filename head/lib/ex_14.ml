@@ -1,4 +1,3 @@
-
 let rec duplicate ls = 
   match ls with
   | [] -> []

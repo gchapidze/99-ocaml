@@ -1,4 +1,3 @@
-
 let rand_select (ls: 'a list) (len: int): 'a list = 
   let min_bound = Random.int (List.length ls) - len
 in

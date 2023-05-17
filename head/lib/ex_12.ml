@@ -1,4 +1,3 @@
-
 let decode ls = 
   let rec append i e =
     if i = 0 then [] else e :: append(i - 1)(e)
